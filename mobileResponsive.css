@@ -1,0 +1,18 @@
+@media (max-width: 480px) {
+    .hero{
+        flex-direction: column-reverse;
+    }
+    .hero-contant h2{
+        font-size: 34px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        color: var(--color-secondary);
+        font-family: var(--font-secondary);
+       
+       }
+       .hero-btn{
+        justify-content: center;
+        flex-direction: column-reverse;
+       gap: 5vh;
+       }
+}
