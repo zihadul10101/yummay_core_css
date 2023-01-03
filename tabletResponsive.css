@@ -6,4 +6,7 @@
         padding-right: 0vh;
     
     }
+    .hero,.about,.featured-services{
+        flex-direction: column-reverse;
+    }
 }

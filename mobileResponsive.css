@@ -1,5 +1,5 @@
 @media (max-width: 480px) {
-    .hero{
+    .hero,.about,.featured-services{
         flex-direction: column-reverse;
     }
     .hero-contant h2{
@@ -15,4 +15,5 @@
         flex-direction: column-reverse;
        gap: 5vh;
        }
+
 }
