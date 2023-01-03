@@ -1,7 +1,11 @@
 @media (max-width: 480px) {
-    .hero,.about,.featured-services{
+    .hero,.about,.featured-services,.counters{
         flex-direction: column-reverse;
     }
+    .counters{
+        flex-direction: column; 
+    }
+
     .hero-contant h2{
         font-size: 34px;
         font-weight: 700;
@@ -13,7 +17,7 @@
        .hero-btn{
         justify-content: center;
         flex-direction: column-reverse;
-       gap: 5vh;
+        gap: 5vh;
        }
 
 }

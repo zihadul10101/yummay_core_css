@@ -1,12 +1,12 @@
 @media (max-width: 768px) {
     .container {
-        display: flex;
-        flex-direction: column;
-        padding-left: 0vh;
-        padding-right: 0vh;
-    
+        padding-left: 1vh;
+        padding-right: 1vh;
     }
     .hero,.about,.featured-services{
         flex-direction: column-reverse;
+    }
+    .counters-box {
+        flex-basis:100%;
     }
 }

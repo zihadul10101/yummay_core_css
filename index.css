@@ -513,3 +513,30 @@ body {
     
 }
    /* featured-services end */
+
+   /* counters start */
+.counters{
+  display: flex;
+  flex-direction: row;
+  gap: 4vh;
+  background-image: url(assets/about/count-bg.jpg);
+  min-height: 500px;
+  background-attachment: fixed;
+  border: 2px solid #0d6efd;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.counters-box{
+  border: 2px solid var(--bs-white);
+  border-radius: 10px;
+  flex-basis: calc(100%/4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+ 
+      /* counters end */
