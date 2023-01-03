@@ -6,6 +6,9 @@
     .hero,.about,.featured-services{
         flex-direction: column-reverse;
     }
+    .menu-contant{
+        flex-direction: column;
+    }
     .counters-box {
         flex-basis:100%;
     }

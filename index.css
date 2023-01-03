@@ -539,4 +539,50 @@ body {
 
 
  
-      /* counters end */
+/* counters end */
+/* menu section start */
+.menu{
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+}
+.tab-menu ul{
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  cursor: pointer;
+}
+.tab-menu ul li{
+  border: 2px solid blue;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+.tab-header{
+  text-align: center;
+}
+.menu-contant{
+ 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.menu-item{
+  flex-basis: calc(100%/3);
+  justify-content: space-evenly;
+  padding: 20px;
+  border: 2px solid green;
+}
+.menu-item img{
+    max-width: 100%;
+    height: auto;
+    
+}
+/* menu section end */

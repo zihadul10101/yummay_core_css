@@ -2,9 +2,10 @@
     .hero,.about,.featured-services,.counters{
         flex-direction: column-reverse;
     }
-    .counters{
+    .counters,.menu-contant{
         flex-direction: column; 
     }
+    
 
     .hero-contant h2{
         font-size: 34px;
