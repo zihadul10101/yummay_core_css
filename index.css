@@ -690,3 +690,20 @@ body {
   padding: 10px;
 }
 /*gallery section end */
+/*contact section start */
+.contact{
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+  border: 2px solid #0d6efd;
+}
+.contact-map{
+flex-basis: 100%;
+border: 2px solid red;
+}
+.contact-form{
+  flex-basis: 100%;
+  border: 2px solid darkblue;
+  height: auto;
+}
+/*contact section end */
