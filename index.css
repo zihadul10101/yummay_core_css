@@ -567,7 +567,6 @@ body {
   text-align: center;
 }
 .menu-contant{
- 
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -586,3 +585,18 @@ body {
     
 }
 /* menu section end */
+/* testimonals section start */
+.testimonals{
+  display: flex;
+  flex-direction: row;
+  gap: 4vh;
+}
+.testimonial-content{
+  border: 2px solid red;
+  flex-basis: 70%;
+}
+.testimonial-img{
+  border: 2px solid green;
+  flex-basis: 30%;
+}
+/* testimonals section end */
