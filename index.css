@@ -619,3 +619,34 @@ body {
   align-items: center; */
 }
 /* event section end */
+/* chefs section start */
+.chefs{
+  display: flex;
+  flex-direction: row;
+  gap: 4vh;
+  border: 2px solid #0d6efd;
+ 
+}
+.chefs-box{
+  border: 2px solid var(--bs-black);
+  border-radius: 10px;
+  flex-basis: calc(100%/3);
+ 
+}
+.chefas-img{
+  flex-basis: 50%;
+  border: 2px solid red;
+  padding: 10px;
+  /* width: 100%; */
+}
+.chefas-img img{
+  width: 100%;
+  height: 100%;
+}
+.cheafs-contant{
+  flex-basis: 50%;
+  /* width: 100%; */
+  border: 2px solid goldenrod;
+  padding: 10px;
+}
+/*chefs section end */

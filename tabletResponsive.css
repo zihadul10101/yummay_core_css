@@ -12,4 +12,8 @@
     .counters-box {
         flex-basis:100%;
     }
+    /* .chefs-box{
+        flex-basis: calc(100%/2);
+        flex-wrap: wrap;
+    } */
 }

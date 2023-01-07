@@ -2,7 +2,7 @@
     .hero,.about,.featured-services,.counters{
         flex-direction: column-reverse;
     }
-    .counters,.menu-contant,.testimonals,.event{
+    .counters,.menu-contant,.testimonals,.event,.chefs{
         flex-direction: column; 
     }
     
