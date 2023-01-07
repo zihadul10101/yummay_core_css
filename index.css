@@ -707,3 +707,26 @@ border: 2px solid red;
   height: auto;
 }
 /*contact section end */
+/*footer section start */
+footer{
+  /* background-color: var(--bs-black); */
+}
+.footer-section{
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+  border: 2px solid #0d6efd;
+}
+.footer-box{
+  display: flex;
+  flex-direction: row;
+  
+}
+.footer-box-inner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: calc(100%/4);
+  border: 2px solid red;
+}
+/*footer section end */
