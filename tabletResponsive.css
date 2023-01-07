@@ -6,12 +6,16 @@
     .hero,.about,.featured-services{
         flex-direction: column-reverse;
     }
-    .menu-contant,.testimonals,.event{
+    .menu-contant,.testimonals,.event,.bookTable{
         flex-direction: column;
     }
     .counters-box {
         flex-basis:100%;
     }
+    .gallery-box{
+       
+        flex-basis: calc(100%/3)!important;
+      }
     /* .chefs-box{
         flex-basis: calc(100%/2);
         flex-wrap: wrap;

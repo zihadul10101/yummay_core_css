@@ -650,3 +650,43 @@ body {
   padding: 10px;
 }
 /*chefs section end */
+/*bookTable section start */
+.bookTable{
+  display: flex;
+  flex-direction: row;
+  gap: 4vh;
+  border: 2px solid #0d6efd;
+}
+.bookTable-image{
+  flex-basis: 35%;
+  border: 2px solid red;
+  padding: 10px;
+}
+.bookTable-image img{
+  width: 100%;
+  height: 100%;
+}
+.bookTable-form{
+  flex-basis: 65%;
+  border: 2px solid cadetblue;
+  padding: 10px;
+}
+/*bookTable section end */
+/*gallery section start */
+.gallery{
+  display: flex;
+  flex-direction: row;
+  gap: 4vh;
+  border: 2px solid #0d6efd;
+}
+.gallery-box{
+  border: 2px solid var(--bs-black);
+  border-radius: 10px;
+  flex-basis: calc(100%/5);
+}
+.gallery-box img{
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+/*gallery section end */
