@@ -6,7 +6,7 @@
     .hero,.about,.featured-services{
         flex-direction: column-reverse;
     }
-    .menu-contant,.testimonals{
+    .menu-contant,.testimonals,.event{
         flex-direction: column;
     }
     .counters-box {
